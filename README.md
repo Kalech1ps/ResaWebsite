@@ -1,20 +1,18 @@
 
-# is this the header?
+# quote
 
-</head>
-
-
-<body>
-<h1>this is a headline<h1>
-  <h2>i am iz</h2>
-  <p> i dont <b>get this</b> im not sure i like this  <mark> a bit confusing isnt it </mark></p>
-  <p>oh lawd</p>
-
-
-
-
-
-<!-- end of content -->
-
-</body>
-</html>
+<style> 
+   font-family: 'Shadows Into Light', cursive;
+  background:pink;
+  color: white;
+    <body>
+  "The whole point of love is to put someone else's needs above your own." 
+  </body>
+  </style>
+  
+  <style>
+  font-family: 'Caveat', cursive;
+  <body>
+    -Danny devito
+  </body>
+  </style>
