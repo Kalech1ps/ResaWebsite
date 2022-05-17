@@ -1,0 +1,40 @@
+<!doctype html>
+
+ <html lang="en">
+ <head>
+ <style>
+ .container {
+   display: grid;
+   grid-template-columns: 4fr 2fr 0.5fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 201px 22px;
+   grid-template-areas:
+     "helbo some space"
+     "this time so"
+     "is and cool";
+ }
+ .helbo { grid-area: helbo; background: pink;}
+ .this { grid-area: this; background: pink; }
+ .is { grid-area: is; background: pink; }
+ .some { grid-area: some; background: pink; }
+ .time { grid-area: time; background: pink; }
+ .and { grid-area: and; background: pink; }
+ .space { grid-area: space; background: pink; }
+ .so { grid-area: so; background: pink; }
+ .cool { grid-area: cool; background: pink; }
+ </style>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="helbo"><h1>a box! </h1></div>
+    <div class="this"><h1>more boxes!</h1></div>
+    <div class="is"></div>
+    <div class="some"></div>
+    <div class="time"></div>
+    <div class="and"></div>
+    <div class="space"></div>
+    <div class="so"></div>
+    <div class="cool"><h1>tiny box!</h2></div>
+</body>
+</html>
