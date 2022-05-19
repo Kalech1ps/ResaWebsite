@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://lcc-adm.github.io/class-site/transition.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>transitions</title>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background-image: radial-gradient(circle 800px at 6.8% 8.3%, rgba(255, 244, 169, 1) 0%, rgba(255, 244, 234, 1) 100.2%);
+      min-height: 100vh;
+      background-attachment: fixed;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+
+    h1 {
+      color: pink;
+      font-size: 2rem;
+      text-shadow: 0px 0px transparent;
+transition: color 1s, font-size .5s, text-shadow .5s;
+    }
+
+    h1:hover {
+      color: lightblue;
+      font-size: 2.5rem;
+      text-shadow: 2px 20px 50px black;
+    }
+
+    #box1 {
+      background: pink;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border: 15px solid lightyellow;
+      transform: rotate(0deg);
+      transition: background 1s, border 1s, border-radius .5s, transform 1s;
+    }
+
+    #box1:hover {
+      background: lightyellow;
+      border: 0px solid transparent;
+      border-radius: 0;
+      transform: rotate(180deg);
+    }
+
+    #box2 {
+    background: pink;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 15px solid lightyellow;
+    transform: rotate(0deg);
+    transition: background 1s, border 1s, border-radius .5s, transform 1s;
+  }
+
+    #box2:hover {
+    background: pink;
+    border: 0px solid transparent;
+    border-radius: 0;
+    transform: rotate(160deg);
+  }
+
+    #box3 {
+      background: lightyellow;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: pink;
+      border: 15px solid white;
+      transform: rotate(0deg);
+      transition: background 1s, border 1s, border-radius .5s, transform 1s;
+    }
+
+    #box3:hover {
+
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: lightblue(250,184,66, 1);
+}
+.heart-shape:before,
+.heart-shape:after{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: lightblue(250,184,66, 1);
+}
+.heart-shape:before{
+  bottom: 0px;
+  left: -100px;
+}
+.heart-shape:after{
+  top: -100px;
+  right: 0px;
+}
+      background: lightblue;
+      border: 0px solid transparent;
+      border-radius: 0;
+      transform: rotate(130deg);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>im gonna change color.</h1>
+  <p>
+    examples :D
+  </p>
+
+  <div id="box1">
+    <p>woosh</p>
+  </div>
+  <br>
+  <div id="box2">
+    <p>wow</p>
+  </div>
+
+  <div id="box3">
+    <p>wee:3</p>
+  </div>
+
+
+</body></html>
